@@ -11,6 +11,10 @@ package com.mycompany.mavenproject1;
 public class Mavenproject1 {
 
     public static void main(String[] args) {
+        
+        String[] command = {"notepad"};
+        ProcessBuilder pb= new ProcessBuilder();
+        
         System.out.println("Hello World!");
         System.out.println("Esto es otra lína");
         
@@ -21,6 +25,12 @@ public class Mavenproject1 {
         
 
          System.out.println("Prueva de Distitna rama");
+         
+         try {
+            Process p= pb.start();
+        } catch (IOException e) {
+        }
+        
 
     }
 }
