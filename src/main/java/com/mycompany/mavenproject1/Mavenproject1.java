@@ -18,9 +18,9 @@ public class Mavenproject1 {
         for (int i = 0; i < 10; i++) {
             System.out.println(i);
         }
-        
-
-         System.out.println("Prueva de Distitna rama");
-
+            int a=8;
+        if( a !=6 ){
+                     System.out.println("Prueva de Distitna rama");
+        }
     }
 }
